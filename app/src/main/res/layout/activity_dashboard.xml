@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DashboardActivity">
+    <TextView
+        android:id="@+id/t"
+        android:layout_below="@+id/videomaker"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp"
+        android:text="List Video"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/videomaker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/v"
+        android:layout_width="250dp"
+        android:layout_height="180dp"/>
+    <TextView
+        android:layout_marginTop="580dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:text="My Favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/favorite2"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/t"
+        android:src="@drawable/fav"
+        android:layout_width="200dp"
+        android:layout_height="180dp"/>
+</RelativeLayout>
